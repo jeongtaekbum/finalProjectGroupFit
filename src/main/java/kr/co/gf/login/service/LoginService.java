@@ -31,7 +31,6 @@ public class LoginService {
 		if (enc_pw != null && !enc_pw.equals("")) {
 			success = encoder.matches(pw, enc_pw);
 		}
-		
 		return success;
 	}
 

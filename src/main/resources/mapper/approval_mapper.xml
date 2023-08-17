@@ -173,7 +173,7 @@
    		select p.a_idx, e.name,p.emp_no ,p.approval,p.subject,p.write_date,p.state from payment p 
 			left join emp e 
 			ON p.emp_no = e.emp_no
-		where state = '대기';
+		where state = '예정';
    </select>
 	
    
